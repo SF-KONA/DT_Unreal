@@ -1,0 +1,129 @@
+# ============================================================
+# Unreal Engine 5.7 .gitattributes (Git LFS 설정)
+# 프로젝트: 셀 의장 공정 디지털트윈
+# ============================================================
+# 큰 바이너리 파일을 Git LFS로 처리하여 저장소 용량 관리
+# ============================================================
+
+# ============================================================
+# 언리얼 핵심 자산 (필수)
+# ============================================================
+*.uasset filter=lfs diff=lfs merge=lfs -text
+*.umap filter=lfs diff=lfs merge=lfs -text
+
+# ============================================================
+# 3D 모델 파일
+# ============================================================
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.gltf filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.3ds filter=lfs diff=lfs merge=lfs -text
+*.dae filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.ma filter=lfs diff=lfs merge=lfs -text
+*.mb filter=lfs diff=lfs merge=lfs -text
+
+# ============================================================
+# 텍스처/이미지 파일
+# ============================================================
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.tiff filter=lfs diff=lfs merge=lfs -text
+*.tif filter=lfs diff=lfs merge=lfs -text
+*.bmp filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.hdr filter=lfs diff=lfs merge=lfs -text
+*.dds filter=lfs diff=lfs merge=lfs -text
+*.raw filter=lfs diff=lfs merge=lfs -text
+*.ico filter=lfs diff=lfs merge=lfs -text
+
+# ============================================================
+# 사운드 파일
+# ============================================================
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.flac filter=lfs diff=lfs merge=lfs -text
+*.aiff filter=lfs diff=lfs merge=lfs -text
+*.aif filter=lfs diff=lfs merge=lfs -text
+*.m4a filter=lfs diff=lfs merge=lfs -text
+
+# ============================================================
+# 비디오/시네마틱 파일
+# ============================================================
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+*.avi filter=lfs diff=lfs merge=lfs -text
+*.mkv filter=lfs diff=lfs merge=lfs -text
+*.webm filter=lfs diff=lfs merge=lfs -text
+
+# ============================================================
+# 폰트 파일
+# ============================================================
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.otf filter=lfs diff=lfs merge=lfs -text
+*.woff filter=lfs diff=lfs merge=lfs -text
+*.woff2 filter=lfs diff=lfs merge=lfs -text
+
+# ============================================================
+# 압축 파일
+# ============================================================
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.7z filter=lfs diff=lfs merge=lfs -text
+*.rar filter=lfs diff=lfs merge=lfs -text
+*.tar filter=lfs diff=lfs merge=lfs -text
+*.gz filter=lfs diff=lfs merge=lfs -text
+
+# ============================================================
+# 기타 바이너리 파일
+# ============================================================
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+
+# ============================================================
+# Line ending 통일 (Windows/Mac/Linux 협업 호환)
+# ============================================================
+# 텍스트 파일은 LF로 통일 (Windows에서 자동 변환)
+*.txt text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.ini text eol=lf
+*.cfg text eol=lf
+*.config text eol=lf
+
+# 소스 코드
+*.cs text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.hpp text eol=lf
+*.c text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+
+# 빌드 파일
+*.uplugin text eol=lf
+*.uproject text eol=lf
+*.uprojectdirs text eol=lf
+
+# Windows 전용 파일 (CRLF 유지)
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Linux/Mac 셸 스크립트 (LF)
+*.sh text eol=lf
+
+# Git 설정 파일
+.gitattributes text eol=lf
+.gitignore text eol=lf

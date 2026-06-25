@@ -18,11 +18,6 @@
 		{
 			"Name": "AIAssistant",
 			"Enabled": true
-		},
-		{
-			"Name": "BlueprintAnalyzer",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/Fab/product/0fd32103-7f3b-48b9-a85ebe682e7409a9"
 		}
 	]
 }

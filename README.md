@@ -16,6 +16,8 @@
 
 <img width="1185" height="794" alt="Image" src="https://github.com/user-attachments/assets/d9331f46-4f55-4242-a684-38ca25890f6b" />
 
+<img width="544" height="307" alt="Image" src="https://github.com/user-attachments/assets/9ec2d943-f198-4e5a-a239-d08052598d7d" />
+
 ---
 
 ## 프로젝트 목표

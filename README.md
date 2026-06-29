@@ -6,13 +6,15 @@
 
 기존 컨베이어 중심 생산 방식이 아닌, **AGV 기반 차량 이동 구조**와 **셀 단위 공정 흐름**을 반영하여 실제 스마트팩토리 환경과 유사한 시뮬레이션 공간을 구성하는 것을 목표로 합니다.
 
-본 프로젝트에서는 자동차 최종 조립 단계 중 일부인 **시트 공정, 휠 공정, 타이어 공정**을 중심으로 공정 흐름을 구성하고, 체크포인트와 블루프린트를 활용하여 차량 이동, 공정 상태 변경, UI 표시 기능을 구현했습니다.
+본 프로젝트에서는 자동차 최종 조립 단계 중 일부인 **글래스 공정, 시트 공정, 휠 공정**을 중심으로 공정 흐름을 구성하고, 체크포인트와 블루프린트를 활용하여 차량 이동, 공정 상태 변경, UI 표시 기능을 구현했습니다.
 
 <img width="1193" height="356" alt="image" src="https://github.com/user-attachments/assets/9a4eb150-2428-4500-afea-404e6bd414e3" />
 
 <img width="1407" height="798" alt="image" src="https://github.com/user-attachments/assets/ecae3c6e-92cf-4f8c-ab3f-38c5f854fd58" />
 
-<img width="1412" height="761" alt="image" src="https://github.com/user-attachments/assets/aafd9e2d-1f4f-434d-a1af-bd426a47656b" />
+<img width="955" height="548" alt="Image" src="https://github.com/user-attachments/assets/6ef1ce84-a12a-4db7-8f4f-6f2db6d961ba" />
+
+<img width="1185" height="794" alt="Image" src="https://github.com/user-attachments/assets/d9331f46-4f55-4242-a684-38ca25890f6b" />
 
 ---
 
